@@ -10,7 +10,7 @@ require('./bootstrap');
 window.Vue = require('vue');
 import Buefy from 'buefy';
 
-VUe.use(Buefy);
+Vue.use(Buefy);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
